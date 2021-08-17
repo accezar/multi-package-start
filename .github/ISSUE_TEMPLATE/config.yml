@@ -1,8 +1,1 @@
 blank_issues_enabled: false
-contact_links:
-  - name: Ask a question
-    url: https://github.com/accezar/multi-package-start/discussions
-    about: Ask questions and discuss topics with other community members
-  - name: Chat with other community members
-    url: https://github.com/accezar/multi-package-start
-    about: The official Discord channel

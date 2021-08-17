@@ -27,7 +27,7 @@ body:
       label: "Link to Reproduction"
       description: |
         A link to a env reproduction which demonstrates the bug (see
-        https://github.com/chakra-ui/chakra-ui#codesandbox-templates for
+        https://github.com/accezar/multi-package-start/#codesandbox-templates for
         templates)
       placeholder: "https://codesandbox.io/"
     validations:
@@ -44,11 +44,11 @@ body:
         3. Scroll down to '...'
         4. See error
   - type: "input"
-    id: "chakra-version"
+    id: "lib-version"
     attributes:
-      label: "Chakra UI Version"
-      description: "The version of Chakra UI you use."
-      placeholder: "1.6.4"
+      label: "Library Version"
+      description: "The version of lib you use."
+      placeholder: "0.0.0"
     validations:
       required: true
   - type: "input"
