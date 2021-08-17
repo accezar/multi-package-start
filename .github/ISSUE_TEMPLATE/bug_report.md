@@ -1,38 +1,48 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+about: File a bug report
+title: bug - [component/module] - bug title
+labels: bug report
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+Thanks for creating an issue 😄!
 
-**To Reproduce**
-Steps to reproduce the behavior:
+Please search open/closed issues before submitting. Someone might have asked the same thing before 😉!
+
+We're all volunteers here, so help us help you by taking the time to accurately fill out this template. ❤️
+
+**1. Describe the bug**
+A brief description of the issue. 
+
+>  When I ____, I expected ____ to happen but ____ happened instead.
+
+**2. Version**
+The version of this library that are using.
+
+**3. Link to Reproduction**
+A link to a CodeSandbox or any other sandbox service which demonstrates the bug (see https://github.com/accezar/multi-package-start#codesandbox-templates for templates)
+
+**4. Steps to reproduce**
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
+**5. Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
+**6. Desktop (please complete the following information):**
  - OS: [e.g. iOS]
  - Browser [e.g. chrome, safari]
  - Version [e.g. 22]
 
-**Smartphone (please complete the following information):**
+**7. Smartphone (please complete the following information):**
  - Device: [e.g. iPhone6]
  - OS: [e.g. iOS8.1]
  - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
 
-**Additional context**
+**8. Additional context**
 Add any other context about the problem here.
