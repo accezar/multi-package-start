@@ -1,20 +1,51 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
+name: Feature Request
+about: Request a feature or enhancement
+title: ""
+labels: ""
+assignees: ""
+---
+
+## Thanks for filing an issue 😄!
+
+Please search open/closed issues before submitting. Someone might have asked the same thing before 😉!
+
+#### 1. Description:
+
+Please describe your request in one or two sentences:
+
+> ...
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+#### 2. Problem Statement/Justification:
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+Please provide valid reason(s) why this should be added.
+If this feature is related to a problem you've noticed, mention it as well.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+> ...
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+---
+
+#### 3. Proposed Solution or AP:
+
+Please provide valid reason(s) why this should be added.
+If this feature is related to a problem you've noticed, mention it as well.
+
+> ...
+
+---
+
+#### 4. Alternatives:
+
+What alternative solutions have you considered before making this request?
+
+> ...
+
+---
+
+#### 5. Additional Information:
+
+What resources (links, screenshots, etc.) do you have to assist this effort?
+
+> ...
