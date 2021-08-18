@@ -6,7 +6,7 @@
     "paths": {
       "@ui/pkg-1": ["pkg-1/src"],
       "@ui/pkg-2": ["pkg-2/src"],
-      "@ui/*": ["src/*"]
+      "@ui/*": ["*/src"]
     }
   }
 }
