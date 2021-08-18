@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "sourceMap": true,
+    "moduleResolution": "node",
     "jsx": "react",
+    "resolveJsonModule": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true
-  },
-
-  "exclude": ["node_modules", "dist", "src/*.test.tsx"]
+    "skipLibCheck": true,
+    "noEmit": true,
+    "sourceMap": true
+  }
 }
