@@ -1,0 +1,28 @@
+{
+  "name": "@lib/pkg-1",
+  "version": "0.0.0",
+  "description": "pkg-1 mock component",
+  "author": "Anna Carolina <carol.carizzo@gmail.com>",
+  "homepage": "https://github.com/accezar/multi-package-start#readme",
+  "license": "ISC",
+  "source": "dist/index.cjs",
+  "main": "dist/index.cjs",
+  "module": "dist/index.es",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accezar/multi-package-start.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/accezar/multi-package-start/issues"
+  }
+}

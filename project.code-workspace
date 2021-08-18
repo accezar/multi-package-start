@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "git.ignoreLimitWarning": true,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.labelFormat": "short",
+    "editor.fontLigatures": true,
+    "files.exclude": {
+      "**/.vscode": false,
+      "**/.git": true,
+      "**/node_modules": false,
+      "**/public": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib"
+  }
+}
