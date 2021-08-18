@@ -10,7 +10,11 @@
     "packages/**",
     "examples/**"
   ],
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install",
+    "test": "jest --passWithNoTests",
+    "commit": "lint-staged && cz --no-verify"
+  },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
@@ -36,9 +40,10 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "husky": "^7.0.1",
+    "husky": "^7.0.0",
     "jest": "^27.0.6",
     "lerna": "^4.0.0",
+    "lint-staged": "^11.1.2",
     "plop": "^2.7.4",
     "prettier": "^2.3.2",
     "react": "^17.0.2",
@@ -47,5 +52,15 @@
     "ts-jest": "^27.0.5",
     "ts-node": "^10.2.0",
     "typescript": "^4.3.5"
+  },
+  "lint-staged": {
+    "packages/**/src/*": [
+      "yarn lint"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cs-conventional-changelog"
+    }
   }
 }
