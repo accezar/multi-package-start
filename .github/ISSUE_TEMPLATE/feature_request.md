@@ -1,8 +1,8 @@
 ---
 name: Feature Request
 about: Request a feature or enhancement
-title: ""
-labels: ""
+title: "feat - [component/context] - feature request title"
+labels: "feature requested"
 assignees: ""
 ---
 
