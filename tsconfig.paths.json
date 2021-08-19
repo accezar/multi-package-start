@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.build.json",
+
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@keiru/pkg-1": ["packages/pkg-1/src"],
+      "@keiru/pkg-2": ["packages/pkg-2/src"],
+      "@keiru/pkg-3": ["packages/pkg-3/src"],
+      "@keiru/primitives": ["packages/primitives/src"],
+      "@keiru/*": ["packages/**/src"]
+    }
+  }
+}
