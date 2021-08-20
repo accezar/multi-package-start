@@ -12,10 +12,11 @@
   ],
   "scripts": {
     "clean": "rm -rf node_modules && lerna run clean",
+    "clean-dist": "lerna run clean-dist",
     "compile": "lerna run compile",
     "prepare": "husky install",
     "release": "changeset publish",
-    "test": "jest --passWithNoTests",
+    "test": "lerna run test",
     "commit": "lint-staged && cz --no-verify",
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook -o ./public",
