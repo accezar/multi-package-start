@@ -3,4 +3,4 @@
 '@keiru/pkg-2': patch
 ---
 
-added new props for component
+added new props for pkg-1 and pkg2
