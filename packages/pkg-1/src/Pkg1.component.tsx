@@ -58,6 +58,7 @@ Button.defaultProps = {
   size: 'medium',
   backgroundColor: 'red',
   onClick: () => console.log('Clicked me!'),
+  isDisabled: false,
 };
 
 export default Button;
