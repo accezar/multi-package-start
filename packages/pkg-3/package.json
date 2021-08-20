@@ -1,0 +1,59 @@
+{
+  "name": "@keiru/pkg-3",
+  "version": "0.0.0",
+  "description": "pkg-3 mock component",
+  "author": "Anna Carolina <carol.carizzo@gmail.com>",
+  "homepage": "https://github.com/accezar/multi-package-start#readme",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "publishConfig": {
+    "access": "public",
+    "source": "dist/index.cjs",
+    "main": "dist/index.cjs",
+    "module": "dist/index.es",
+    "types": "dist/index.d.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accezar/multi-package-start.git"
+  },
+  "bugs": {
+    "url": "https://github.com/accezar/multi-package-start/issues"
+  },
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "clean-dist": "rm -rf ./dist",
+    "clean": "rm -rf ./node_modules && rm -rf tsconfig.build.tsbuildinfo",
+    "compile": "rollup -c",
+    "start": "ts-node -r tsconfig-paths/register src/index.ts",
+    "prepublishOnly": "yarn build",
+    "type:check": "tsc --pretty --noEmit",
+    "test": "jest --verbose --passWithNoTests",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^8.1.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "jest": "^27.0.6",
+    "rollup": "^2.56.2",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "rollup-plugin-progress": "^1.1.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-visualizer": "^5.5.2",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.0",
+    "tsconfig-paths": "~3.9.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

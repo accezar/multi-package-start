@@ -1,1 +1,17 @@
+.DS_Store
+lib
+package-lock.json
 node_modules
+public
+packages/**/node_modules
+examples/**/node_modules
+examples/**/public
+packages/**/dist
+packages/**/*.tsbuildinfo
+packages/**/*.html 
+lerna-debug.log
+yarn-error.log
+build-storybook.log
+.layer0
+.npmrc
+.env
