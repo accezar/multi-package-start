@@ -1,3 +1,4 @@
+name: 'PR Checker'
 on:
   pull_request:
     branches:
@@ -8,4 +9,7 @@ jobs:
   task-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: kentaro-m/task-completed-checker-action@v0.1.0
+      - name: Check Completed Tasks
+        uses: kentaro-m/task-completed-checker-action@v0.1.0
+        with:
+          repo-token: '${{ secrets.PERSONAL_GIT_TOKEN }}'
