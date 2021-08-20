@@ -24,20 +24,19 @@ jobs:
       - name: Install Dependencies
         run: yarn
 
-      - name: Build dists folders
+      - name: Build packages /dist
         run: yarn compile
 
-      - name: Create Release Pull Request
-        uses: changesets/action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_GIT_TOKEN }}
+      - name: Run packages tests
+        run: yarn test
 
-      - name: Create Release Pull Request or Publish to npm
+      - name: Create Release Pull Request and Publish to NPM
         id: changesets
         uses: changesets/action@master
         with:
           # This expects you to have a script called release which does a build for your packages and calls changeset publish
-          publish: yarn release
+          publish: yarn release,
+          commit: 'chore(release): version packages'
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GIT_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
