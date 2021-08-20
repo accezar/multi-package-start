@@ -2,4 +2,4 @@
 '@keiru/primitives': patch
 ---
 
-fixed broken tests
+fixed broken tests.
