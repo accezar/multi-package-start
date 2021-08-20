@@ -30,6 +30,7 @@
     "compile": "rollup -c",
     "start": "ts-node -r tsconfig-paths/register src/index.ts",
     "prepublishOnly": "yarn build",
+    "type:check": "tsc --pretty --noEmit",
     "test": "jest --verbose --passWithNoTests",
     "test:watch": "jest --watch"
   },

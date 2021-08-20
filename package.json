@@ -12,14 +12,18 @@
   ],
   "scripts": {
     "clean": "rm -rf node_modules && lerna run clean",
+    "compile": "lerna run compile",
     "prepare": "husky install",
     "test": "jest --passWithNoTests",
     "commit": "lint-staged && cz --no-verify",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook:build": "build-storybook -o ./public",
+    "lint": "eslint 'packages/**/src/*.{ts,tsx}'",
+    "type:check": "lerna run type:check"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
+    "@changesets/cli": "^2.16.0",
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
     "@stitches/react": "^0.2.5",

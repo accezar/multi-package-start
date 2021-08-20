@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.build.json",
+  "extends": "../../tsconfig.paths.json",
 
   "include": ["src/**/*"],
 
@@ -9,9 +9,10 @@
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "module": "esnext",
     "target": "es5",
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "../",
     "noImplicitAny": false
   }
 }
