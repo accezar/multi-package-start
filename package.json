@@ -14,6 +14,7 @@
     "clean": "rm -rf node_modules && lerna run clean",
     "compile": "lerna run compile",
     "prepare": "husky install",
+    "release": "changeset publish",
     "test": "jest --passWithNoTests",
     "commit": "lint-staged && cz --no-verify",
     "storybook": "start-storybook -p 6006",
