@@ -1,6 +1,6 @@
 {
   "name": "@keiru/pkg-1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "pkg-1 mock component",
   "author": "Anna Carolina <carol.carizzo@gmail.com>",
   "homepage": "https://github.com/accezar/multi-package-start#readme",
