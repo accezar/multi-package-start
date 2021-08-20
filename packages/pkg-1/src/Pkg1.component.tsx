@@ -22,16 +22,28 @@ type ButtonProps = {
    * Optional click handler
    */
   onClick?: () => void;
+  /**
+   * NEw props
+   */
+  isDisabled?: boolean;
 };
 
 /**
  * Primary UI component for user interaction
  */
-const Button = ({ primary, size, backgroundColor, label, ...props }: ButtonProps): JSX.Element => {
+const Button = ({
+  primary,
+  size,
+  backgroundColor,
+  label,
+  isDisabled,
+  ...props
+}: ButtonProps): JSX.Element => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <button
       type="button"
+      disabled={isDisabled}
       className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
       style={{ backgroundColor }}
       {...props}
