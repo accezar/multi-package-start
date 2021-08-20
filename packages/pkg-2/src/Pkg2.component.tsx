@@ -22,26 +22,16 @@ type ButtonProps = {
    * Optional click handler
    */
   onClick?: () => void;
-
-  onChange?: () => void;
 };
 
 /**
  * Primary UI component for user interaction
  */
-const Button = ({
-  primary,
-  size,
-  backgroundColor,
-  label,
-  onChange,
-  ...props
-}: ButtonProps): JSX.Element => {
+const Button = ({ primary, size, backgroundColor, label, ...props }: ButtonProps): JSX.Element => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <button
       type="button"
-      onChange={onChange}
       className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
       style={{ backgroundColor }}
       {...props}
@@ -56,7 +46,6 @@ Button.defaultProps = {
   size: 'medium',
   backgroundColor: 'blue',
   onClick: () => console.log('Clicked me!'),
-  onChange: () => console.log('Changed!'),
 };
 
 export default Button;
