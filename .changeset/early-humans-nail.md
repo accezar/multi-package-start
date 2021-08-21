@@ -5,4 +5,4 @@
 '@keiru/primitives': patch
 ---
 
-fixed module exportation extension format
+changes the main entry point of all packages to dist/
