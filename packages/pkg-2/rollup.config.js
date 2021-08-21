@@ -10,12 +10,12 @@ export default {
   input: './src/index.ts',
   output: [
     {
-      file: 'dist/index.cjs.js',
+      file: 'dist/index.cjs',
       format: 'cjs',
       exports: 'auto',
     },
     {
-      file: 'dist/index.es.js',
+      file: 'dist/index.es',
       format: 'es',
     },
   ],
