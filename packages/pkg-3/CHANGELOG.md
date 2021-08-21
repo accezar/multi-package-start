@@ -1,5 +1,11 @@
 # @keiru/pkg-3
 
+## 0.0.3
+
+### Patch Changes
+
+- changes the main entry point of all packages to dist/
+
 ## 0.0.2
 
 ### Patch Changes

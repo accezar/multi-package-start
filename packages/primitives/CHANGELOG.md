@@ -1,5 +1,15 @@
 # @keiru/primitives
 
+## 0.0.3
+
+### Patch Changes
+
+- changes the main entry point of all packages to dist/
+- Updated dependencies [undefined]
+  - @keiru/pkg-1@0.0.3
+  - @keiru/pkg-2@0.0.3
+  - @keiru/pkg-3@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes
