@@ -1931,14 +1931,6 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@keiru/pkg-1@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@keiru/pkg-1/-/pkg-1-0.0.2.tgz#d51a804cfb8c089830a729ed67876e7813b32d03"
-  integrity sha512-vrvkVpyJUUvQQYssDfaz2U+66JRI226vsRpi6oGll/971v49Hmj4yQ07rqilFwJhhho9PDUimp1xOi085M0hzA==
-  dependencies:
-    react "^17.0.2"
-    react-dom "^17.0.2"
-
 "@lerna/add@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@lerna/add/-/add-4.0.0.tgz#c36f57d132502a57b9e7058d1548b7a565ef183f"

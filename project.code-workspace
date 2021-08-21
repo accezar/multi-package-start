@@ -12,8 +12,7 @@
     "files.exclude": {
       "**/.vscode": false,
       "**/.git": true,
-      "**/node_modules": true,
-      "**/packages/**/node_modules": true,
+      "**/node_modules": false,
       "**/public": true
     },
     "typescript.tsdk": "node_modules/typescript/lib"

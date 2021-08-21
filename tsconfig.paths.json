@@ -7,6 +7,7 @@
       "@keiru/pkg-1": ["pkg-1/src"],
       "@keiru/pkg-2": ["pkg-2/src"],
       "@keiru/pkg-3": ["pkg-3/src"],
+      "@keiru/theme": ["theme/src"],
       "@keiru/primitives": ["primitives/src"],
       "@keiru/*": ["*/src"]
     }
