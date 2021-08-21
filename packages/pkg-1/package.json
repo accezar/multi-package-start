@@ -11,9 +11,9 @@
   ],
   "publishConfig": {
     "access": "public",
-    "source": "dist/index.cjs.js",
-    "main": "dist/index.cjs.js",
-    "module": "dist/index.es.js",
+    "source": "dist/index.cjs",
+    "main": "dist/index.cjs",
+    "module": "dist/index.es",
     "types": "dist/index.d.ts"
   },
   "repository": {
