@@ -1,20 +1,19 @@
 {
   "name": "@keiru/primitives",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "pkg-1 mock component",
   "author": "Anna Carolina <carol.carizzo@gmail.com>",
   "homepage": "https://github.com/accezar/multi-package-start#readme",
   "license": "ISC",
+  "source": "dist/index.cjs.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "main": "src/index.ts",
   "publishConfig": {
-    "access": "public",
-    "source": "dist/index.cjs",
-    "main": "dist/index.cjs",
-    "module": "dist/index.es",
-    "types": "dist/index.d.ts"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -55,8 +54,8 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "@keiru/pkg-1": "^0.0.1",
-    "@keiru/pkg-2": "^0.0.1",
-    "@keiru/pkg-3": "^0.0.1"
+    "@keiru/pkg-1": "^0.0.3",
+    "@keiru/pkg-2": "^0.0.3",
+    "@keiru/pkg-3": "^0.0.3"
   }
 }
