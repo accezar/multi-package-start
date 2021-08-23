@@ -6,8 +6,8 @@ import '@testing-library/jest-dom';
 
 describe('@keiru/pkg-3', () => {
   it('expects the component gets rendered', () => {
-    render(<Pkg1 label="teste 3" />);
+    render(<Pkg1 label="teste 34" />);
 
-    expect(screen.getByText('teste 3')).toBeInTheDocument();
+    expect(screen.getByText('teste 34')).toBeInTheDocument();
   });
 });
