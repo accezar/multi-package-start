@@ -1,5 +1,5 @@
 # Disable validation, and skip status check creation
-enabled: true
+# enabled: true
 
 # Always validate the PR title, and ignore the commits
 titleOnly: false
