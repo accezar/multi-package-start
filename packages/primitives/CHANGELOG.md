@@ -1,5 +1,12 @@
 # @keiru/primitives
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies [50518e0]
+  - @keiru/pkg-3@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

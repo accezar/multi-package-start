@@ -1,5 +1,11 @@
 # @keiru/pkg-3
 
+## 0.0.5
+
+### Patch Changes
+
+- 50518e0: changed default color to red
+
 ## 0.0.4
 
 ### Patch Changes
