@@ -1,6 +1,6 @@
 {
   "name": "@keiru/primitives",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "pkg-1 mock component",
   "author": "Anna Carolina <carol.carizzo@gmail.com>",
   "homepage": "https://github.com/accezar/multi-package-start#readme",
@@ -56,6 +56,6 @@
     "react-dom": "^17.0.2",
     "@keiru/pkg-1": "^1.0.0",
     "@keiru/pkg-2": "^0.0.4",
-    "@keiru/pkg-3": "^0.0.4"
+    "@keiru/pkg-3": "^0.0.5"
   }
 }
