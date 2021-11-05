@@ -1,5 +1,12 @@
 # @keiru/pkg-3
 
+## 0.0.4
+
+### Patch Changes
+
+- 6106dfd: edited test file
+- 6106dfd: bump packages
+
 ## 0.0.3
 
 ### Patch Changes

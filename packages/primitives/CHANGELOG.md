@@ -1,5 +1,17 @@
 # @keiru/primitives
 
+## 0.0.4
+
+### Patch Changes
+
+- 6106dfd: bump packages
+- Updated dependencies [6106dfd]
+- Updated dependencies [6106dfd]
+- Updated dependencies [6106dfd]
+  - @keiru/pkg-1@1.0.0
+  - @keiru/pkg-3@0.0.4
+  - @keiru/pkg-2@0.0.4
+
 ## 0.0.3
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # @keiru/pkg-1
 
+## 1.0.0
+
+### Major Changes
+
+- 6106dfd: removed primary props
+
+### Patch Changes
+
+- 6106dfd: bump packages
+
 ## 0.0.3
 
 ### Patch Changes
