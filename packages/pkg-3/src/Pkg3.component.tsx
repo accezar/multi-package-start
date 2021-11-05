@@ -44,7 +44,7 @@ const Button = ({ primary, size, backgroundColor, label, ...props }: ButtonProps
 Button.defaultProps = {
   primary: false,
   size: 'medium',
-  backgroundColor: 'aqua',
+  backgroundColor: 'red',
   onClick: () => console.log('Clicked me!'),
 };
 
