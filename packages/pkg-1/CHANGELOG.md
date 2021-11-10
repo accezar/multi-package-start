@@ -1,5 +1,11 @@
 # @keiru/pkg-1
 
+## 1.0.1
+
+### Patch Changes
+
+- 4d5d04b: exported new type
+
 ## 1.0.0
 
 ### Major Changes
