@@ -1,5 +1,11 @@
 # @keiru/pkg-2
 
+## 0.0.5
+
+### Patch Changes
+
+- 4d5d04b: exported new type
+
 ## 0.0.4
 
 ### Patch Changes

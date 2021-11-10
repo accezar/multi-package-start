@@ -1,6 +1,6 @@
 {
   "name": "@keiru/theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Theme utils for styling react components",
   "author": "Anna Carolina <carol.carizzo@gmail.com>",
   "homepage": "https://github.com/accezar/multi-package-start#readme",
