@@ -24,6 +24,8 @@ export const {
   config,
 } = themeConfig;
 
+export const testTheme = theme('test-theme', WebstoreTheme.theme);
+
 export const { space, colors, radii, zIndices, fonts, fontSizes, letterSpacings, fontWeights } =
   config.theme;
 

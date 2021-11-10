@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import React from 'react';
 
-type ButtonProps = {
+export type ButtonProps = {
   /**
    * Is this the principal call to action on the page?
    */
