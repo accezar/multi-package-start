@@ -12,6 +12,7 @@ on:
 
 jobs:
   check:
+    name: Check PR Semantic
     runs-on: ubuntu-latest
     steps:
       - uses: thehanimo/pr-title-checker@v1.3.2
