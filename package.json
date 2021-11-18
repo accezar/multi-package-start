@@ -21,7 +21,8 @@
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook -o ./public",
     "lint": "eslint 'packages/**/src/*.{ts,tsx}'",
-    "type:check": "lerna run type:check"
+    "type:check": "lerna run type:check",
+    "format": "lerna run format"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
