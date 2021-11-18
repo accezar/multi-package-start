@@ -50,22 +50,22 @@ jobs:
           key: ${{ github.sha }}
       - run: yarn format
 
-  lintCheck:
-    name: Check lint
-    runs-on: ubuntu-latest
-    needs: [formatCheck]
-    steps:
-      - uses: actions/cache@v2
-        id: restore-build
-        with:
-          path: ./*
-          key: ${{ github.sha }}
-      - run: yarn lint
+  # lintCheck:
+  #   name: Check lint
+  #   runs-on: ubuntu-latest
+  #   needs: [formatCheck]
+  #   steps:
+  #     - uses: actions/cache@v2
+  #       id: restore-build
+  #       with:
+  #         path: ./*
+  #         key: ${{ github.sha }}
+  #     - run: yarn lint
 
   typeCheck:
     name: Check type
     runs-on: ubuntu-latest
-    needs: [lintCheck]
+    needs: [installDependencies]
     steps:
       - uses: actions/cache@v2
         id: restore-build

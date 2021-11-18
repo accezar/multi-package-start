@@ -27,9 +27,6 @@ jobs:
       - name: Build packages /dist
         run: yarn compile
 
-      - name: Run packages tests
-        run: yarn test
-
       - name: Create Release Pull Request and Publish to NPM
         id: changesets
         uses: changesets/action@master
