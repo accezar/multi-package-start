@@ -11,12 +11,10 @@ on:
       - unlabeled
 
 jobs:
-  checkPullRequest:
-    name: Check PR Semantic
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: thehanimo/pr-title-checker@v1.3.2
-        id: pt-title-checker
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           pass_on_octokit_error: false
