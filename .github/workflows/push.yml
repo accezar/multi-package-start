@@ -1,6 +1,9 @@
 name: Push Workflow
 
-on: [push]
+on:
+  push:
+    branches-ignore:
+      - changeset-release/master
 
 jobs:
   installDependencies:

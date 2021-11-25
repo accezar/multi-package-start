@@ -2,9 +2,11 @@ name: Pos Release Workflow
 
 # Event for the workflow
 on:
-  pull_request:
-    branches: [changeset-release/master]
-    types: [closed]
+  workflow_run:
+    workflows: ['Release Workflow']
+    branches: [master]
+    types:
+      - completed
 
 jobs:
   sync-branch:
