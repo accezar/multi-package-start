@@ -1,0 +1,21 @@
+name: Pos Release Workflow
+
+# Event for the workflow
+on:
+  pull_request:
+    branches: [changeset-release/master]
+    types: [closed]
+
+jobs:
+  sync-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Merge master -> develop
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          from_branch: master
+          target_branch: development
+          github_token: ${{ secrets.GITHUB_TOKEN }}

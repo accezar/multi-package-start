@@ -23,7 +23,7 @@
     "url": "https://github.com/accezar/multi-package-start/issues"
   },
   "scripts": {
-    "build": "yarn clean && yarn compile",
+    "build": "yarn compile",
     "clean-dist": "rm -rf ./dist",
     "clean": "rm -rf ./node_modules && rm -rf tsconfig.build.tsbuildinfo",
     "compile": "rollup -c",
@@ -31,7 +31,8 @@
     "prepublishOnly": "yarn build",
     "type:check": "tsc --pretty --noEmit",
     "test": "jest --verbose --passWithNoTests",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "format": "prettier --write src/index.ts"
   },
   "devDependencies": {
     "@testing-library/dom": "^8.1.0",

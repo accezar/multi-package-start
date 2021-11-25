@@ -1,4 +1,4 @@
-name: Release
+name: Release Workflow
 
 on:
   push:
@@ -16,19 +16,16 @@ jobs:
           # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
           fetch-depth: 0
 
-      - name: Setup Node.js 12.x
+      - name: Setup Node.js 14.x
         uses: actions/setup-node@master
         with:
-          node-version: 12.x
+          node-version: '14'
 
       - name: Install Dependencies
         run: yarn
 
       - name: Build packages /dist
         run: yarn compile
-
-      - name: Run packages tests
-        run: yarn test
 
       - name: Create Release Pull Request and Publish to NPM
         id: changesets
@@ -41,10 +38,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GIT_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      # - name: Send a Slack notification if a publish happens
-      #   if: steps.changesets.outputs.published == 'true'
-      #   # You can do something when a publish happens.
-      #   run:
-      #     my-slack-bot send-notification --message "A new version of ${GITHUB_REPOSITORY} was
-      #     published!"
