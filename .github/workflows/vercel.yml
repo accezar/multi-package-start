@@ -8,12 +8,6 @@ on:
     types:
       - completed
 
-on:
-  pull_request:
-    branches:
-      - master
-      - develop
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
