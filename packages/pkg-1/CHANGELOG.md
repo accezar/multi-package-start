@@ -1,5 +1,11 @@
 # @keiru/pkg-1
 
+## 1.0.2
+
+### Patch Changes
+
+- 0af49bf: test ci
+
 ## 1.0.1
 
 ### Patch Changes

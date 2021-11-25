@@ -1,6 +1,14 @@
 name: Vercel Deploy
 
 on:
+  workflow_run:
+    workflows: ['Push Workflow']
+    branches-ignore:
+      - changeset-release/master
+    types:
+      - completed
+
+on:
   pull_request:
     branches:
       - master
